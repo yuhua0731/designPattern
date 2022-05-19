@@ -15,7 +15,7 @@ public class Tree extends Component {
     void swing() {
         // TODO Auto-generated method stub
         System.out.println(this.name + " starts to swing");
-        for (Component comp : children) {
+        for (Component comp : this.children) {
             comp.swing();
         }
     }
